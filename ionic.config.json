@@ -1,0 +1,7 @@
+{
+  "name": "elastos-helloworld-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
