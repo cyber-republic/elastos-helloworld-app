@@ -11,5 +11,5 @@
 - npm run build:epk
 
 ## How to run the app
-- Import elastos-helloworld-dapp.epk into Trinity
+- Import helloworld.epk into Trinity
 - Click on the app to open it

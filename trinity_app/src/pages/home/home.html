@@ -7,13 +7,14 @@
 </ion-header>
 
 <ion-content padding>
-	
   <ion-list>
     <ion-item>
-      <ion-label>Component Name</ion-label>
-      <ion-input type="text" placeholder="libElastos.HelloCarDemo.so" [(ngModel)]="carpath"></ion-input>
+      <ion-label>Component</ion-label>
+      <ion-input type="text" [(ngModel)]="carpath" name="carpath"></ion-input>
     </ion-item>
   </ion-list>
   <button full ion-button color="secondary" (click)="require_module()">Execute Component</button> 
+  <button full ion-button color="secondary" (click)="require_DID()">DID Login</button> 
+</ion-content>
 
 
